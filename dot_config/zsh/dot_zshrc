@@ -136,5 +136,5 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias fix-tomcat="sudo chmod 777 -R /usr/share/tomcat10/conf/ /usr/share/tomcat10/ /var/tmp/tomcat10/temp"
-alias chezmoi-commit='chezmoi git add . && chezmoi git commit -m "dotfiles" && chezmoi git push'
+alias chezmoi-commit='chezmoi git add . && chezmoi git -- commit -m "dotfiles" && chezmoi git push'
 
